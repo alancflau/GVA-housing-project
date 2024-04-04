@@ -1,6 +1,6 @@
 # GVA-housing-project
 
-<img src='pic/Vancouver_Skyline_and_Mountains.jpg' width='25'>
+<img src='pic/Vancouver_Skyline_and_Mountains.jpg' width='100' height ='100'>
 
 ## Overview
 This project aims to gather data through web scraping for the Greater Vancouver Area, conduct data exploration, develop predictive models, and ultimately predict housing prices in the region. The Greater Vancouver Area is known for its diverse real estate market and fluctuating housing prices, making it an interesting area for analysis and prediction.
