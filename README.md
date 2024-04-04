@@ -23,5 +23,12 @@ Housing Prediction: Once the models are trained and validated, use them to make 
 
 This serves a way to hone my skills in python, data scraping and machine learnin
 
+<br>
+This project serves as a way to hone skills in Python programming, data scraping, and machine learning. Regularly practicing and experimenting with different techniques will contribute to improving proficiency in these areas. Additional documentation will be included as the project advances.
 
-This project serves as a way to hone skills in Python programming, data scraping, and machine learning. Regularly practicing and experimenting with different techniques will contribute to improving proficiency in these areas.
+
+
+
+
+
+
