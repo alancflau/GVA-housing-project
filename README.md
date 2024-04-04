@@ -1,6 +1,6 @@
 # GVA-housing-project
 
-![image](pic/Vancouver_Skyline_and_Mountains.jpg "Greater Vancouver Area" {width=40px height=400px})
+![image](pic/Vancouver_Skyline_and_Mountains.jpg | width = 100)
 
 
 ## Overview
