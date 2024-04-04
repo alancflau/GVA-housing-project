@@ -1,8 +1,8 @@
 # GVA-housing-project
 
 <p align ="center">
-  <img src='pic/Vancouver_Skyline_and_Mountains.jpg' width=100% height =50%
-    alt = "Beautiful Greater Vancouver Area">
+  <img src='pic/Vancouver_Skyline_and_Mountains.jpg' width=100% height =50%>
+  <figcaption>Greater Vancouver Area</figcaption>
 </p>
 
 ## Overview
