@@ -1,6 +1,6 @@
 # GVA-housing-project
 
-![pic](Vancouver_Skyline_and_Mountains.jpg)
+![image](pic/Vancouver_Skyline_and_Mountains.jpg)
 
 https://github.com/alancflau/GVA-housing-project/commit/81058734b02bece30d5e44d8c80ce375947a0847
 
