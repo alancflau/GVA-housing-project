@@ -2,7 +2,7 @@
 
 <p align ="center">
   <img src='pic/Vancouver_Skyline_and_Mountains.jpg' width=100% height =50%>
-  <figcaption>Greater Vancouver Area</figcaption>
+  <em>Greater Vancouver Area (source: wikipedia)</em>
 </p>
 
 ## Overview
