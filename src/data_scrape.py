@@ -1,4 +1,3 @@
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,6 +7,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 
 import src.login_config as config
+import pandas as pd
 
 wait_time = 5
 url = 'https://www.zoocasa.com/'
@@ -21,8 +21,8 @@ def selenium_start():
     options = Options()
     options.add_argument("--headless=new")
 
-    # browser = webdriver.Chrome(options=options)
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome(options=options)
+    # browser = webdriver.Chrome()
     lst_of_listings_links = []
     browser.get(url)
     
@@ -91,16 +91,42 @@ def retrieve_sold_listings(browser, city, page):
         # print(href_value)
         lst_of_listings_links.append(href_value)
 
-    sleep(5)
+    
 
 def fn_to_retreive_sold_listings(browser, city, pages):
     for page in range(1,pages+1):
         print('Page number is {}'.format(page))
         retrieve_sold_listings(browser, city, page)
     
-    sleep(10)
     browser.close()
     return lst_of_listings_links
+
+def retreive_info(browser, dynamic_text):
+    try:
+        info = WebDriverWait(browser,wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, f"[data-testid='{dynamic_text}']")))
+        return info.text
+    except:
+        return None
+
+def retrieve_sell_info(browser, dynamic_text, inner_text):
+    try:
+        # Wait for all listing elements to be present
+        listing_elements = WebDriverWait(browser, wait_time).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, f'.{dynamic_text}')))
+        # print(listing_elements)
+        
+        for listing_element in listing_elements:
+            # Find the listing status element within the listing element
+            status_element = listing_element.find_element(By.CSS_SELECTOR, "[data-testid='listingStatus']")
+            # Check if the status is "Sold"
+            if status_element.text.strip().lower() == "sold":
+                # Do something with the specific sold listing
+                inner_elements  = WebDriverWait(listing_element, wait_time).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, f"[data-testid='{inner_text}']")))
+
+                for element in inner_elements:
+                    return element.text
+
+    except Exception as e:
+        return None
 
 def retrieve_sold_listing_description(browser, url):
     """
@@ -116,8 +142,51 @@ def retrieve_sold_listing_description(browser, url):
         login_credentials(browser)
         WebDriverWait(browser,wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='overlayAcceptTermsMsg']"))).click()
         WebDriverWait(browser,wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='termsOfUseAcceptButton_31017']"))).click()
-        print("A")
     except:
         pass
+
+    # Key Facts
+    # TypeKeyFacts
+    house_type = retreive_info(browser, 'TypeKeyFacts')
+    size = retreive_info(browser, 'SizeKeyFacts')
+    maint_fee = retreive_info(browser, 'MaintenanceFeesKeyFacts')
+    approx_age = retreive_info(browser, 'Approx.AgeKeyFacts')
+    mls_number = retreive_info(browser, 'MLS®NumberKeyFacts')
+    levels = retreive_info(browser, 'LevelsKeyFacts')
+    garage = retreive_info(browser, 'GarageKeyFacts')
+    garage_size = retreive_info(browser, 'listingCarIcon')
+    taxes = retreive_info(browser, 'TaxesKeyFacts')
+    avg_price_sqft = retreive_info(browser, 'Avg.PricePerSqftKeyFacts')
+    property_addr = retreive_info(browser, 'keyFactsPropertyAddress')
+    bedroom = retreive_info(browser, 'listingBedIcon')
+    bathroom = retreive_info(browser, 'listingBathIcon')
+
+    list_date = retrieve_sell_info(browser, 'style_grid__CzhIW', 'priceHistoryRowDate')
+    list_price = retrieve_sell_info(browser, 'style_grid__CzhIW', 'priceHistoryRowListPrice')
+    end_date = retrieve_sell_info(browser, 'style_grid__CzhIW', 'priceHistoryRowSoldDate')
+    sold_price = retrieve_sell_info(browser, 'style_grid__CzhIW', 'priceHistoryRowSoldPrice')
+    
+
+    df = pd.DataFrame({
+        'house_type': [house_type],
+        'size': [size],
+        'maint_fee': [maint_fee],
+        'approx_age': [approx_age],
+        'mls_number': [mls_number],
+        'levels': [levels],
+        'garage': [garage],
+        'garage_size': [garage_size],
+        'taxes': [taxes],
+        'avg_price_sqft': [avg_price_sqft],
+        'property_addr': [property_addr],
+        'bedroom': [bedroom],
+        'bathroom': [bathroom],
+        'list_date': [list_date],
+        'list_price': [list_price],
+        'end_date': [end_date],
+        'sold_price': [sold_price]
+}, index = [0])
+
+    return df
 
 
