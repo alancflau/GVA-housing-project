@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+import re
 
 YEAR = 2024
 
@@ -47,3 +48,17 @@ def calculate_price_diff_or_pct(list_price, sold_price, operation):
         return result
     except ValueError:
         return None
+
+def regex_cleanup(text):
+
+    # Find the index of ":" and ","
+    start_index = text.find(":")
+    end_index = text.find(",")
+
+    # Extract the text between ":" and ","
+    if start_index != -1 and end_index != -1:
+        extracted_text = text[start_index + 1:end_index].strip()
+        return extracted_text
+    else:
+        return None
+
