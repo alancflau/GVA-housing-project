@@ -62,3 +62,24 @@ def regex_cleanup(text):
     else:
         return None
 
+def geocode_json(address, city, gmaps):
+    """
+    Params: Address (text). Returns geocode json
+    """
+    text = address + " " + city
+    try:
+        geocode_result = gmaps.geocode(text)
+        return geocode_result
+    except:
+        return None
+
+def extract_geocode_postal(geocode_json):
+    
+    postal_code = None
+    if geocode_json:
+        if len(geocode_json) > 0 and 'address_components' in geocode_json[0]:
+            for component in geocode_json[0]['address_components']:
+                if 'postal_code' in component.get('types', []):
+                    postal_code = component.get('long_name')
+                    break
+    return postal_code
