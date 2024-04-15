@@ -66,7 +66,7 @@ def geocode_json(address, city, gmaps):
     """
     Params: Address (text). Returns geocode json
     """
-    text = address + " " + city
+    text = address + ", " + city + ", british columbia, canada"
     try:
         geocode_result = gmaps.geocode(text)
         return geocode_result
