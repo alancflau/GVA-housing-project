@@ -83,3 +83,125 @@ def extract_geocode_postal(geocode_json):
                     postal_code = component.get('long_name')
                     break
     return postal_code
+
+
+def regex_fix_misc(dataframe):
+    """
+    Replace postal codes and address to correct format. These do not follow any rules and strictly manually searched on google.
+
+    """
+    dataframe.loc[dataframe['mls_number'] == 'R2818744','postal_code'] ='V5E 4M6'
+    dataframe.loc[dataframe['mls_number'] == 'R2853587','postal_code'] ='V0V 0V0'
+    dataframe.loc[dataframe['mls_number'] == 'R2591013','postal_code'] ='V3C 1E2'
+    dataframe.loc[dataframe['mls_number'] == 'R2590096','postal_code'] ='V3J 5L9'
+    dataframe.loc[dataframe['mls_number'] == 'R2853732','postal_code'] ='V4L' # 5
+    dataframe.loc[dataframe['mls_number'] == 'R2587451','postal_code'] ='V4C 2X5' 
+    dataframe.loc[dataframe['mls_number'] == 'R2577063','postal_code'] ='V4K 5E9' 
+    dataframe.loc[dataframe['mls_number'] == 'R2578634','postal_code'] ='V4M 3N8' 
+    dataframe.loc[dataframe['mls_number'] == 'R2582673','postal_code'] ='V4C 3G3' 
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2866726','postal_code'] ='V6Y 4L9' 
+    dataframe.loc[dataframe['mls_number'] == 'R2866726','address'] ='901 - 6333 Katsura Street' # fixing adddress while we're here
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2811721','postal_code'] ='V7A 2S3' 
+    dataframe.loc[dataframe['mls_number'] == 'R2811721','address'] ='9700 & 9720 Garden City Road' # fixing adddress while we're here
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2584896','postal_code'] ='V7E 1K2' 
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2579432','postal_code'] ='V3S 2V2' 
+    dataframe.loc[dataframe['mls_number'] == 'R2579432','address'] ='16536 63 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2585691','postal_code'] ='V4N 6V5' 
+    dataframe.loc[dataframe['mls_number'] == 'R2585691','address'] ='17557 100 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2596756','postal_code'] ='V3R 2C4' 
+    dataframe.loc[dataframe['mls_number'] == 'R2596756','address'] ='14672 111 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','postal_code'] ='V3S 9V2' 
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','address'] ='16589 25 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2594540','postal_code'] ='V3T 1X6' 
+    dataframe.loc[dataframe['mls_number'] == 'R2594540','address'] ='14171 104 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2561445','postal_code'] ='V4A 8K7' 
+    dataframe.loc[dataframe['mls_number'] == 'R2561445','address'] ='12936 19 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2595404','postal_code'] ='V3S 0G3' 
+    dataframe.loc[dataframe['mls_number'] == 'R2595404','address'] ='15454 32 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2594183','postal_code'] ='V4N 5R4' 
+    dataframe.loc[dataframe['mls_number'] == 'R2594183','address'] ='17330 104 Avenue' # did not show up in original listing, google shows missing info
+
+    dataframe.loc[dataframe['mls_number'] == 'R2592821','postal_code'] ='V4A 4N7' 
+    dataframe.loc[dataframe['mls_number'] == 'R2592821','address'] ='15166 20 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2745577','postal_code'] ='V3Z 0W4' 
+    dataframe.loc[dataframe['mls_number'] == 'R2745577','address'] ='16760 25 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','postal_code'] ='V3S 9V2' 
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','address'] ='16589 25 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2587546','postal_code'] ='V3S 7X3' 
+    dataframe.loc[dataframe['mls_number'] == 'R2587546','address'] ='14940 62 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2591498','postal_code'] ='V4A 1S7' 
+    dataframe.loc[dataframe['mls_number'] == 'R2591498','address'] ='16228 16 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2585891','postal_code'] ='V3Z 0J6' 
+    dataframe.loc[dataframe['mls_number'] == 'R2585891','address'] ='15715 34 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','postal_code'] ='V3S 9V2' 
+    dataframe.loc[dataframe['mls_number'] == 'R2593212','address'] ='16589 25 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2584177','postal_code'] ='V3S 2N9' 
+    dataframe.loc[dataframe['mls_number'] == 'R2584177','address'] ='18199 70 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2586790','postal_code'] ='V3X 1Y8' 
+    dataframe.loc[dataframe['mls_number'] == 'R2586790','address'] ='12038 62 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2582146','postal_code'] ='V4A 5T3' 
+    dataframe.loc[dataframe['mls_number'] == 'R2582146','address'] ='15420 22 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2586656','postal_code'] ='V4A 1N7' 
+    dataframe.loc[dataframe['mls_number'] == 'R2586656','address'] ='12926 16 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2586150','postal_code'] ='V3R 0W8' 
+    dataframe.loc[dataframe['mls_number'] == 'R2586150','address'] ='15258 105 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2580364','postal_code'] ='V3R 2C1' 
+    dataframe.loc[dataframe['mls_number'] == 'R2580364','address'] ='13711 111 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2585691','postal_code'] ='V4N 6V5' 
+    dataframe.loc[dataframe['mls_number'] == 'R2585691','address'] ='17557 100 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2583651','postal_code'] ='V3S 9M9' 
+    dataframe.loc[dataframe['mls_number'] == 'R2583651','address'] ='16565 20 Avenue' # did not show up in original listing, google shows missing info
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2815446','postal_code'] ='V7W 2N5'
+    dataframe.loc[dataframe['mls_number'] == 'R2831620','postal_code'] ='V5P 4X1'
+    dataframe.loc[dataframe['mls_number'] == 'R2816348','postal_code'] ='V7M 0C8'
+    dataframe.loc[dataframe['mls_number'] == 'R2797809','postal_code'] ='V7V 4R7'
+    dataframe.loc[dataframe['mls_number'] == 'R2811638','postal_code'] ='V7M 1G7'
+
+    dataframe.loc[dataframe['mls_number'] == 'R2793090','postal_code'] ='V7G 1M9'
+    dataframe.loc[dataframe['mls_number'] == 'R2792117','postal_code'] ='V7R 1J8'
+    dataframe.loc[dataframe['mls_number'] == 'R2811813','postal_code'] ='V7M 0C8'
+    dataframe.loc[dataframe['mls_number'] == 'R2784735','postal_code'] ='V7V 2R2'
+    dataframe.loc[dataframe['mls_number'] == 'R2810467','postal_code'] ='V7P 3E3'
+    dataframe.loc[dataframe['mls_number'] == 'R2798338','postal_code'] ='V7P 3E3'
+    dataframe.loc[dataframe['mls_number'] == 'R2806091','postal_code'] ='V5P 4X2'
+    dataframe.loc[dataframe['mls_number'] == 'R2796849','postal_code'] ='V5P 4X5'
+    dataframe.loc[dataframe['mls_number'] == 'R2805320','postal_code'] ='V7M 0E7'
+    dataframe.loc[dataframe['mls_number'] == 'R2798035','postal_code'] ='V7M 0E4'
+    dataframe.loc[dataframe['mls_number'] == 'R2787027','postal_code'] ='V7L 1G8'
+    dataframe.loc[dataframe['mls_number'] == 'R2793128','postal_code'] ='V7P 3E3'
+    dataframe.loc[dataframe['mls_number'] == 'R2795445','postal_code'] ='V7N 1T4'
+    dataframe.loc[dataframe['mls_number'] == 'R2798427','postal_code'] ='V7P 3E3'
+    dataframe.loc[dataframe['mls_number'] == 'R2800213','postal_code'] ='V7V 2P8'
+    dataframe.loc[dataframe['mls_number'] == 'R2798099','postal_code'] ='V5P 4X2'
+    dataframe.loc[dataframe['mls_number'] == 'R2795760','postal_code'] ='V7L 4Y1'
+    
+    dataframe.loc[dataframe['mls_number'] == 'R2793694','postal_code'] ='V7K 1V3'
+    dataframe.loc[dataframe['mls_number'] == 'R2787000','postal_code'] ='V7P 3G7'
+    dataframe.loc[dataframe['mls_number'] == 'R2789135	','postal_code'] ='V0N 3Z1'
+
