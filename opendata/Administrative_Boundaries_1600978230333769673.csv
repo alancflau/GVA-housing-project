@@ -1,0 +1,28 @@
+﻿OBJECTID,Municipal ID,Name,Short Name,GlobalID,created_user,created_date,last_edited_user,last_edited_date,Shape__Area,Shape__Length
+27,18,City of Vancouver,Vancouver,97bf475e-5106-43af-813a-51d4708e6b02,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,137165616.997803,56748.0146556396
+28,16,City of Richmond,Richmond,46ac0bec-7011-4963-9604-d87eecead0e5,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,265410596.096191,83279.4602395052
+29,5,City of Delta,Delta,243ae7cc-3498-4c70-8deb-d174237e681c,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,388345794.827637,129075.693440839
+30,17,City of Surrey,Surrey,23e1503c-a3dd-4ac6-8656-73ebbde33cf7,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,364997346.465332,95262.8833405948
+31,20,City of White Rock,White Rock,7570d674-6e6a-4dea-831c-254af43c768c,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,14304043.8249512,16112.2862586461
+32,9,Township of Langley,Langley Township,7c7e5179-876e-48a0-8bbd-4b5b3b29b710,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,317236496.595703,81956.8799805351
+33,8,City of Langley,Langley City,92db91fb-ebf6-4d75-a723-b6fec5cf5c3a,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,10238849.9882813,14318.8321210463
+34,26,City of Maple Ridge,Maple Ridge,7dc8a2aa-3b33-41ff-8753-a398c54eb37f,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,286858961.676758,80096.726354405
+35,24,City of Pitt Meadows,Pitt Meadows,020590ee-e120-4491-8e04-2d632fc19b6c,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,96251340.7724609,56729.958212238
+36,6,Electoral Area A,Electoral Area A,e7d06025-e8e1-4fbd-adc9-563b15f79f37,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,8356363.69921875,12466.9158978041
+37,14,City of Port Coquitlam,Port Coquitlam,bbfdaef2-0931-4904-a832-d550dcaf4ff7,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,34680541.5053711,30493.1236941266
+38,4,City of Coquitlam,Coquitlam,21b3b1eb-3343-4f6b-b788-a3cf4cc17c21,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,129593529.055908,70446.4289320866
+39,6,Electoral Area A,Electoral Area A,119803b3-9354-4a09-aa66-972a92372616,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,47938.95703125,1233.96547778547
+40,11,City of New Westminster,New Westminster,193a80ce-f124-4d6d-9e79-adbe8b9ae931,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,18307050.5917969,20732.5688311037
+41,3,City of Burnaby,Burnaby,0a609550-a026-4ad6-a80a-aff5d765f411,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,96670272.2019043,40934.244466086
+42,15,City of Port Moody,Port Moody,9574c768-2c39-46fc-a1e6-d65f3859541f,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,32752809.5009766,41018.844756517
+43,1,Village of Anmore,Anmore,fa50a6fb-9920-491d-a1d6-4221b96c00d6,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,32233123.3952637,30995.251963983
+44,2,Village of Belcarra,Belcarra,033a6f79-8cd3-409c-ace4-dba5cd818f8a,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,12591443.4504395,17258.2666414316
+45,12,City of North Vancouver,North Vancouver City,3cd3b4c4-a67f-4771-a03b-cfd2bbd9d9cc,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,14924793.5991211,19009.4061227402
+46,22,Village of Lions Bay,Lions Bay,9f6b291d-f1e4-4429-acf9-acd26fc5ffe2,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,3894680.76977539,9469.69110380891
+47,21,Bowen Island Municipality,Bowen Island,95db21b2-65fd-473d-8ff3-1f8a1a95535a,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,62728307.3269043,37754.5316957463
+48,6,Electoral Area A,Electoral Area A,a0e18f09-ec02-4554-82df-b1c07d07846c,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,141225.536865234,1598.5116453258
+49,6,Electoral Area A,Electoral Area A,8cb7793b-a28c-4000-92ab-a87dc01b8de7,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,1429679748.47729,378034.881574723
+50,13,District of North Vancouver,North Vancouver District,41185583-986d-4523-b60d-f557feaaa67d,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,177438733.951172,67985.1680731851
+51,19,District of West Vancouver,West Vancouver,fa4521f3-83f8-47d6-a981-5baa515882b7,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,98869658.9672852,45571.154586533
+52,27,Tsawwassen First Nation,Tsawwassen First Nation,9827f389-dfda-4bd8-9584-67ff13e10973,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,12480586.4260254,32611.7447785679
+53,12,Electoral Area A,Electoral Area A,47423f51-e9d8-4412-bca8-26da424cb586,mvagoladmin,10/27/2023 11:19:43 PM,mvagoladmin,10/27/2023 11:19:43 PM,2173436.48046875,12550.8789038243
