@@ -1,72 +1,164 @@
-,City,Average Household Income Before Taxes,Median Household Income Before Taxes,Average Household Income After Taxes,Median Household Income After Taxes
-1,Vancouver,"96,423","72,585","79,422","63,361"
-2,Ambleside,"76,706","45,272","62,825","40,913"
-3,Anmore/Belcarra/Metro Vancouver North,"188,275","134,308","142,856","112,272"
-4,Capital Hill/Brentwood,"91,212","71,829","76,325","62,485"
-5,Cedar Cottage,"87,256","70,328","74,326","62,146"
-6,Central Lonsdale,"68,118","54,406","56,531","47,705"
-7,Central Park,"70,198","55,608","60,156","50,063"
-8,Cloverdale/Fleetwood,"101,069","89,751","85,562","77,562"
-9,Collingwood,"71,368","61,116","62,272","54,005"
-10,Coquitlam East,"95,682","76,895","79,915","67,102"
-11,Coquitlam West,"91,679","71,530","77,052","62,717"
-12,Deer Lake,"107,710","84,481","89,903","75,167"
-13,Downtown,"72,722","63,817","61,509","55,403"
-14,Downtown Central,"69,878","50,536","57,196","44,176"
-15,Downtown Eastside/Strathcona,"48,493","23,359","40,925","22,542"
-16,Downtown North,"99,605","72,595","78,235","61,143"
-17,Dundrave/West Vancouver Remainder,"206,109","99,200","149,554","83,998"
-18,Edmonds,"66,063","52,939","57,516","48,145"
-19,English Bay,"64,218","51,416","53,630","44,698"
-20,Fraser View/Killarny,"85,263","69,225","73,272","61,218"
-21,Guildford,"87,469","69,725","74,657","62,024"
-22,Hastings/Sunrise/Grandview/Woodlands,"78,474","60,486","66,312","53,146"
-23,Kerrisdale,"103,433","60,364","80,568","52,415"
-24,Kitsilano/Point Grey North,"101,325","71,486","79,524","60,743"
-25,Kitsilano/Point Grey South,"104,508","74,686","83,127","64,042"
-26,Ladner,"109,704","90,211","89,989","77,185"
-27,Langley CY,"70,629","59,645","60,357","51,969"
-28,Langley DM,"107,270","90,408","88,960","77,557"
-29,Lonsdale East,"106,879","82,298","86,705","70,875"
-30,Lonsdale North,"79,256","57,684","66,405","50,399"
-31,Lonsdale West,"88,533","70,036","72,891","59,653"
-32,Maple Ridge,"98,781","86,042","82,469","74,248"
-33,Marpole Remainder,"103,416","71,255","82,372","62,242"
-34,Marpole South,"52,112","44,197","45,309","39,194"
-35,Metrotown,"67,090","49,736","56,824","44,198"
-36,Mount Pleasant,"79,472","61,870","65,952","53,448"
-37,New Westminster East,"95,098","76,799","79,035","65,936"
-38,New Westminster West,"103,886","90,867","87,230","78,458"
-39,Newton,"90,308","77,583","78,277","68,621"
-40,North Delta,"105,061","92,165","88,324","81,022"
-41,North False Creek,"102,700","70,675","80,050","60,023"
-42,North Vancouver DM East,"134,875","102,997","108,194","87,253"
-43,North Vancouver DM West,"158,057","102,551","118,802","86,976"
-44,Pitt Meadows,"100,073","87,017","83,276","74,142"
-45,Point Grey,"161,576","84,951","124,460","71,858"
-46,Port Coquitlam,"95,644","83,918","80,577","72,081"
-47,Port Moody,"112,027","93,521","91,092","79,462"
-48,Renfrew,"82,595","68,173","71,516","61,054"
-49,Richmond City Centre,"58,799","46,789","51,211","42,782"
-50,Richmond East,"83,345","70,012","71,694","61,673"
-51,Richmond South,"95,989","74,811","80,570","66,551"
-52,Richmond West,"100,819","75,818","82,569","66,684"
-53,Riley Park,"113,552","86,163","92,129","74,467"
-54,Sea Island,"124,640","100,504","101,272","85,656"
-55,South Cambie,"154,043","86,410","115,915","73,538"
-56,South False Creek,"112,256","86,264","89,217","73,435"
-57,South Granville,"82,097","61,890","66,875","53,163"
-58,South Surrey,"115,224","86,474","92,005","74,037"
-59,Southeast Burnaby South,"81,286","66,718","69,127","59,335"
-60,Sunset,"87,017","69,118","74,403","61,366"
-61,Surrey City Centre,"60,047","51,582","52,105","46,359"
-62,Tsawwassen,"127,785","93,526","101,244","80,324"
-63,University Endowment Lands,"86,208","43,644","67,630","40,011"
-64,University/Lougheed,"89,128","70,209","74,544","61,423"
-65,Uptown,"60,523","48,365","52,115","43,098"
-66,West End/Stanley Park North,"90,510","60,847","71,336","51,228"
-67,West End/Stanley Park South,"65,755","49,693","54,668","43,316"
-68,Westside Heights,"89,375","71,169","75,120","61,648"
-69,Westside/Kerrisdale Remainder,"166,374","90,084","126,150","76,854"
-70,Whalley,"77,234","67,343","67,882","59,664"
-71,White Rock,"89,992","61,865","74,637","53,425"
+Neighborhood/ City,City,Median Household Income Before Taxes,Source
+Downtown,Vancouver,"63,817",City of Vancouver
+Hastings-Sunrise,Vancouver,"68,506",City of Vancouver
+Kerrisdale,Vancouver,"75,419",City of Vancouver
+Marpole,Vancouver,"53,782",City of Vancouver
+Oakridge,Vancouver,"62,988",City of Vancouver
+Riley Park,Vancouver,"83,513",City of Vancouver
+South Cambie,Vancouver,"83,111",City of Vancouver
+Shaughnessy,Vancouver,"111,566",City of Vancouver
+Victoria-Fraserview,Vancouver,"68,126",City of Vancouver
+Dunbar-Southlands,Vancouver,"104,450",City of Vancouver
+Fairview,Vancouver,"69,337",City of Vancouver
+Mount Pleasant,Vancouver,"66,299",City of Vancouver
+Renfrew-Collingwood,Vancouver,"64,179",City of Vancouver
+WestEnd,Vancouver,"51,410",City of Vancouver
+Arbutus Ridge,Vancouver,"71,008",City of Vancouver
+Grandview-Woodland,Vancouver,"55,141",City of Vancouver
+Kensington-Cedar Cottage,Vancouver,"70,815",City of Vancouver
+Kilarney,Vancouver,"71,559",City of Vancouver
+Kitsilano ,Vancouver,"72,839",City of Vancouver
+Strathcona,Vancouver,"21,964",City of Vancouver
+Sunset,Vancouver,"68,855",City of Vancouver
+West Point Grey,Vancouver,"84,951",City of Vancouver
+Sea Island,Richmond,"100,504",Cmhc
+Thompson,Richmond,"86,163",Cmhc
+West Richmond,Richmond,"86,163",Cmhc
+Steveston,Richmond,"74,811",Cmhc
+South Arm,Richmond,"74,811",Cmhc
+City Centre,Richmond,"46,789",Cmhc
+East Richmond,Richmond,"70,012",Cmhc
+Hamilton,Richmond,"70,012",Cmhc
+Suncrest,Burnaby,"115,090",areavibes (via statcan)
+Maywood,Burnaby,"55,248",areavibes (via statcan)
+Garden Village,Burnaby,"72,895",areavibes (via statcan)
+Cascade-Schou,Burnaby,"83,836",areavibes (via statcan)
+West Central,Burnaby,"92,073",areavibes (via statcan)
+Willingdon Heights,Burnaby,"83,966",areavibes (via statcan)
+Burnaby Heights,Burnaby,"90,385",areavibes (via statcan)
+Capitol Hill,Burnaby,"81,799",areavibes (via statcan)
+Brentwood,Burnaby,"87,712",areavibes (via statcan)
+Dawson-Delta,Burnaby,57054,areavibes (via statcan)
+Douglas-Gilpin,Burnaby,"98,604",areavibes (via statcan)
+Marlborough ,Burnaby,"56,683",areavibes (via statcan)
+Sussex-Nelson,Burnaby,"93,414",areavibes (via statcan)
+Clinton-Glenwood,Burnaby,"86,287",areavibes (via statcan)
+Windsor,Burnaby,"72,431",areavibes (via statcan)
+Oakalla,Burnaby,"95,813",areavibes (via statcan)
+Parkcrest-Aubrey,Burnaby,"92,843",areavibes (via statcan)
+Ardingley-Sprott,Burnaby,"97,744",areavibes (via statcan)
+Morley-Buckingham,Burnaby,"141,083",areavibes (via statcan)
+Kingsway-Beresford,Burnaby,"82,217",areavibes (via statcan)
+Westridge,Burnaby,"77,134",areavibes (via statcan)
+Lochdale,Burnaby,"104,560",areavibes (via statcan)
+Sperling-Broadway,Burnaby,"85,418",areavibes (via statcan)
+Burnaby Mountain,Burnaby,"42,697",areavibes (via statcan)
+Lake City,Burnaby,"108,921",areavibes (via statcan)
+Lyndhust,Burnaby,"102,763",areavibes (via statcan)
+Cameron,Burnaby,"63,777",areavibes (via statcan)
+Government Road,Burnaby,"152,920",areavibes (via statcan)
+Burnaby Lake,Burnaby,"73,229",areavibes (via statcan)
+Lakeview-Mayfield,Burnaby,"99,253",areavibes (via statcan)
+Cariboo-Armstrong,Burnaby,"112,241",areavibes (via statcan)
+Second Street,Burnaby,"96,013",areavibes (via statcan)
+Richmond Park,Burnaby,"52,118",areavibes (via statcan)
+Edmonds,Burnaby,"79,266",areavibes (via statcan)
+Stride Avenue,Burnaby,"76,753",areavibes (via statcan)
+Stride Hill,Burnaby,"94,832",areavibes (via statcan)
+Big Bend,Burnaby,"97,013",areavibes (via statcan)
+Queensborough,New Westminister,"113,454",areavibes (via statcan)
+Connaught Heights,New Westminister,"89,348",areavibes (via statcan)
+West End (NW),New Westminister,"113,327",areavibes (via statcan)
+Moody Park,New Westminister,"88,986",areavibes (via statcan)
+Glenbrooke North,New Westminister,"80,000",areavibes (via statcan)
+Kelvin,New Westminister,"88,986",areavibes (via statcan)
+Downtown,New Westminister,"77,407",areavibes (via statcan)
+Queen's Park,New Westminister,"126,186",areavibes (via statcan)
+The Heights,New Westminister,"121,354",areavibes (via statcan)
+Sapperton,New Westminister,"81,142",areavibes (via statcan)
+Fraserview,New Westminister,"91,347",areavibes (via statcan)
+Quay,New Westminister,"91,742",areavibes (via statcan)
+Brunette Creek,New Westminister,"93,957",areavibes (via statcan)
+Coquitlam West,Coquitlam,"72,677",areavibes (via statcan)
+Harbour Chines,Coquitlam,"97,296",areavibes (via statcan)
+Harbour Place,Coquitlam,"146,478",areavibes (via statcan)
+Chineside,Coquitlam,"128,352",areavibes (via statcan)
+Central Coquitlam,Coquitlam,"97,296",areavibes (via statcan)
+Maillardville,Coquitlam,"81,591",areavibes (via statcan)
+Cape Horn,Coquitlam,"108,321",areavibes (via statcan)
+Coquitlam East,Coquitlam,"123,580",areavibes (via statcan)
+Ranch Park,Coquitlam,"115,865",areavibes (via statcan)
+Meadow Brook,Coquitlam,"115,865",areavibes (via statcan)
+Eagle Ridge ,Coquitlam,"94,545",areavibes (via statcan)
+North Coquitlam,Coquitlam,"59,471",areavibes (via statcan)
+Upper East Ridge,Coquitlam,"137,955",areavibes (via statcan)
+Summit View,Coquitlam,"178,776",areavibes (via statcan)
+Westwood Summit,Coquitlam,"124,394",areavibes (via statcan)
+Scott Creek,Coquitlam,"95,546",areavibes (via statcan)
+Canyon Springs,Coquitlam,"59,471",areavibes (via statcan)
+New Horizons,Coquitlam,"83,504",areavibes (via statcan)
+River Springs,Coquitlam,"126,704",areavibes (via statcan)
+Park Ridge Estates,Coquitlam,"164,470",areavibes (via statcan)
+Hockaday,Coquitlam,"88,193",areavibes (via statcan)
+Westwood Plateau,Coquitlam,"102,933",areavibes (via statcan)
+Burke Mountain,Coquitlam,"114,668",areavibes (via statcan)
+Woodland Acres,Port Coquitlam,"73,592",areavibes (via statcan)
+Glenwood,Port Coquitlam,"85,875",areavibes (via statcan)
+Lincoln Park,Port Coquitlam,"122,391",areavibes (via statcan)
+Oxford Heights,Port Coquitlam,"128,258",areavibes (via statcan)
+Birchland Manor,Port Coquitlam,"94,688",areavibes (via statcan)
+Riverwood,Port Coquitlam,"129,050",areavibes (via statcan)
+Central Port Coquitlam,Port Coquitlam,"81,275",areavibes (via statcan)
+Lower Mary Hill,Port Coquitlam,"110,846",areavibes (via statcan)
+Mary Hill,Port Coquitlam,"113,919",areavibes (via statcan)
+Citadel,Port Coquitlam,"138,790",areavibes (via statcan)
+North Delta,Delta,"105,061",cmhc
+Ladner,Delta,"111,021",areavibes (via statcan)
+Delta,Delta,"108,000",areavibes (via statcan)
+City Centre,Surrey,"60,047",cmhc
+Guildford,Surrey,"87,469",cmhc
+Surrey,Surrey,"77,501",cmhc
+Fleetwood,Surrey,"89,751",cmhc
+Whalley,Surrey,"67,343",cmhc
+Cloverdale,Surrey,"89,751",cmhc
+South Surrey,Surrey,"115,224",cmhc
+Newton,Surrey,"90,308",cmhc
+Lower Lonsdale,North Vancouver,"75,920",areavibes (via statcan)
+Central Lonsdale,North Vancouver,"71,734",areavibes (via statcan)
+Keith-Lynn,North Vancouver,"111,343",areavibes (via statcan)
+Moodyville,North Vancouver,"127,411",areavibes (via statcan)
+Upper Lonsdale,North Vancouver,"177,263",areavibes (via statcan)
+Delbrook,North Vancouver,"166,511",areavibes (via statcan)
+Capilano Highlands,North Vancouver,"157,871",areavibes (via statcan)
+Canyon Heights,North Vancouver,"179,315",areavibes (via statcan)
+Cleveland Park,North Vancouver,"191,783",areavibes (via statcan)
+Grousewoods,North Vancouver,"191,993",areavibes (via statcan)
+Pemberton Heights,North Vancouver,"139,409",areavibes (via statcan)
+Dollarton,North Vancouver,"155,486",areavibes (via statcan)
+Cove Cliff,North Vancouver,"167,457",areavibes (via statcan)
+Deep Cove,North Vancouver,"158,659",areavibes (via statcan)
+Seymour Heights,North Vancouver,"139,175",areavibes (via statcan)
+Indian River,North Vancouver,"159,077",areavibes (via statcan)
+Parkway,North Vancouver,"118,383",areavibes (via statcan)
+Parkgate,North Vancouver,"66,940",areavibes (via statcan)
+Northlands,North Vancouver,"122,841",areavibes (via statcan)
+Blueridge,North Vancouver,"177,149",areavibes (via statcan)
+Windsor Park,North Vancouver,"130,138",areavibes (via statcan)
+Maplewood,North Vancouver,"101,612",areavibes (via statcan)
+Riverside East,North Vancouver,"178,225",areavibes (via statcan)
+Tempe,North Vancouver,"130,946",areavibes (via statcan)
+Nordwood Queens,North Vancouver,"118,959",areavibes (via statcan)
+Upper Delbrook,North Vancouver,"208,742",areavibes (via statcan)
+Westview,North Vancouver,"96,761",areavibes (via statcan)
+Mahon,North Vancouver,"105,521",areavibes (via statcan)
+Marine-Hamilton,North Vancouver,"97,144",areavibes (via statcan)
+Braemar,North Vancouver,"220,215",areavibes (via statcan)
+Central Lynn,North Vancouver,"149,093",areavibes (via statcan)
+Boundary,North Vancouver,"139,529",areavibes (via statcan)
+Lynn Valley Centre,North Vancouver,"83,620",areavibes (via statcan)
+Upper West Lynn,North Vancouver,"122,974",areavibes (via statcan)
+Kirkstone,North Vancouver,"107,595",areavibes (via statcan)
+Lynnmour South,North Vancouver,"91,864",areavibes (via statcan)
+Lower West Lynn,North Vancouver,"137,824",areavibes (via statcan)
+Lynnmour North,North Vancouver,"119,322",areavibes (via statcan)
+Lynn Canyon,North Vancouver,"159,964",areavibes (via statcan)
